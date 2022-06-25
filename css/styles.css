@@ -1,0 +1,210 @@
+:root {
+    --brand-color            : #757575;
+    --brand-color-background : #2F303A;
+    --brand-color-accent     : #2196F3;
+    --brand-color-secondary  : #212121;
+    --brand-color-third      : #000000;
+    --brand-color-four       : #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--brand-color);
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation-list,
+.contact-list,
+.address-list,
+.filter-list,
+.preferences-list,
+.portfolio-list,
+.team-list,
+.examples-list {
+    list-style: none;
+}
+
+/* header styles */
+.header {
+    background-color: var(--brand-color-four);
+    font-weight : 500;
+    line-height : 1.14;
+    letter-spacing : 0.02em;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--brand-color-accent);
+    letter-spacing: 0.03em;
+}
+
+.header .accent {
+    color: var(--brand-color-third);
+}
+
+.header .link {
+    color: var(--brand-color-secondary);
+}
+
+.header .link:hover,
+.header .link:focus,
+.header .link.current {
+    color: var(--brand-color-accent);
+}
+
+.contact-item {
+    color: var(--brand-color);
+}
+
+.contact-item:hover,
+.contact-item:focus {
+    color: var(--brand-color-accent);
+}
+
+/* main styles */
+
+.order {
+    background: var(--brand-color-background);
+}
+
+.order-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--brand-color-four);
+}
+
+.preferences-title {
+    display: none;
+}
+
+.preferences-list .title{
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--brand-color-secondary);
+}
+
+.preferences-list .text {
+    line-height: 1.71;
+    color: var(--brand-color);
+}
+
+.portfolio-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--brand-color-secondary);
+}
+
+.team-list .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--brand-color-secondary);
+}
+
+.team-list .text {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--brand-color);
+}
+
+/* button styles */
+.button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    cursor: pointer;
+    color: var(--brand-color-four);
+    background-color: var(--brand-color-accent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.examples-title {
+    display: none;
+}
+
+.examples .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--brand-color-secondary);
+}
+
+.examples .text {
+font-size: 16px;
+line-height: 1.88;
+color: var(--brand-color);
+}
+
+/* filter styles */
+
+.filter {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    color: var(--brand-color-secondary);
+    background-color: #F5F4FA;
+}
+
+.filter:hover,
+.filter:focus {
+    color: var(--brand-color-four);
+        background-color: var(--brand-color-accent);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* footer styles */
+.footer {
+    background-color: var(--brand-color-background);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer .accent {
+    color: var(--brand-color-four);
+}
+
+.address-list {
+    font-style: normal;
+}
+
+.address-maps {
+    color: var(--brand-color-four);
+}
+
+.address-item {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-maps:hover,
+.address-maps:focus,
+.address-item:hover,
+.address-item:focus {
+    color: var(--brand-color-accent);
+}
